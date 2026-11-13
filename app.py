@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Configuration
 REDIS_URL = os.environ.get('REDIS_URL', 'redis://localhost:6379')
 ADMIN_KEY = os.environ.get('ADMIN_KEY', 'paid')  # Default admin key
-API_DEVELOPER = "@VerifiedNur"
+API_DEVELOPER = "@g0zok"
 ORIGINAL_API_URL = "https://paid.originalapis.workers.dev/tg"
 ORIGINAL_API_KEY = "primexnur"  # The key for the original API
 
